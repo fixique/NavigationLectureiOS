@@ -17,6 +17,7 @@
 		8083990220F2952E00DA79E2 /* SecondTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083990020F2952E00DA79E2 /* SecondTestController.swift */; };
 		8083990320F2952E00DA79E2 /* SecondTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8083990120F2952E00DA79E2 /* SecondTestController.xib */; };
 		8083990620F295B300DA79E2 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083990420F295B300DA79E2 /* MainTabBarController.swift */; };
+		80E63E3120FB7F3D0038685D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E63E3020FB7F3D0038685D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8083990020F2952E00DA79E2 /* SecondTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTestController.swift; sourceTree = "<group>"; };
 		8083990120F2952E00DA79E2 /* SecondTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondTestController.xib; sourceTree = "<group>"; };
 		8083990420F295B300DA79E2 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		80E63E3020FB7F3D0038685D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				808398E720F28E8F00DA79E2 /* Assets.xcassets */,
 				808398E920F28E8F00DA79E2 /* LaunchScreen.storyboard */,
 				808398EC20F28E8F00DA79E2 /* Info.plist */,
+				80E63E3020FB7F3D0038685D /* Main.storyboard */,
 			);
 			path = NavigationLecture3;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				808398EB20F28E8F00DA79E2 /* LaunchScreen.storyboard in Resources */,
 				808398F820F28F3800DA79E2 /* MainViewController.xib in Resources */,
 				808398E820F28E8F00DA79E2 /* Assets.xcassets in Resources */,
+				80E63E3120FB7F3D0038685D /* Main.storyboard in Resources */,
 				808398FD20F2945900DA79E2 /* TableViewController.xib in Resources */,
 				8083990320F2952E00DA79E2 /* SecondTestController.xib in Resources */,
 			);

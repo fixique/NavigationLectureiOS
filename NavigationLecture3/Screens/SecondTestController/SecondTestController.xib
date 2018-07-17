@@ -25,11 +25,18 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kwi-7j-y0W">
+                    <rect key="frame" x="10" y="58" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="DG2-ks-adL"/>
+                    </constraints>
+                </view>
             </subviews>
-            <color key="backgroundColor" red="1" green="0.85195802320277769" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="gdy-Kh-Ilk" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="5OJ-j1-5HG"/>
                 <constraint firstItem="gdy-Kh-Ilk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="VPq-QI-1mM"/>
+                <constraint firstItem="Kwi-7j-y0W" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="ska-Qf-ygu"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>
