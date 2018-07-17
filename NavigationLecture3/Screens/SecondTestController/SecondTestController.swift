@@ -10,9 +10,5 @@ import UIKit
 
 class SecondTestController: UIViewController {
 
-    func pushMainSettingsController() {
-        let mainSettingsController = MainSettingsController()
-        self.navigationController?.pushViewController(mainSettingsController, animated: true)
-    }
 
 }
