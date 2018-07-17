@@ -20,16 +20,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
 
         /** First step create UIViewController with nib file without storyboard */
-        let mainViewController = MainViewController()
-        window?.rootViewController = mainViewController
+//        let mainViewController = MainViewController()
+//        window?.rootViewController = mainViewController
 
         /** Second step simple example with tableView **/
 //        let tableViewController = TableViewController()
 //        window?.rootViewController = tableViewController
 
         /** Third step simple example with tabbar controller **/
-//        let mainTabbar = MainTabBarController()
-//        window?.rootViewController = mainTabbar
+        let mainTabbar = MainTabBarController()
+        window?.rootViewController = mainTabbar
 
 
         return true

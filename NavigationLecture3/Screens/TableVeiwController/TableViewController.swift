@@ -36,7 +36,7 @@ private extension TableViewController {
 
 // MARK: - UITableViewDataSource
 
-private extension TableViewController: UITableViewDataSource {
+extension TableViewController: UITableViewDataSource {
 
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -47,14 +47,14 @@ private extension TableViewController: UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-
+        return UITableViewCell()
     }
 
 }
 
 // MARK: - UITableViewDelegate
 
-private extension TableViewController: UITableViewDelegate {
+extension TableViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, shouldHighlightRowAt indexPath: IndexPath) -> Bool {
         return true

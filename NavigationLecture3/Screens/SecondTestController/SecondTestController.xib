@@ -19,24 +19,19 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Это второй контроллер" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdy-Kh-Ilk">
-                    <rect key="frame" x="92.5" y="323" width="189" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Это второй контроллер" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdy-Kh-Ilk">
+                    <rect key="frame" x="20" y="317.5" width="335.5" height="33.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kwi-7j-y0W">
-                    <rect key="frame" x="10" y="58" width="240" height="128"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="240" id="DG2-ks-adL"/>
-                    </constraints>
-                </view>
             </subviews>
+            <color key="backgroundColor" red="0.36862745099999999" green="0.023529411760000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="gdy-Kh-Ilk" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="5OJ-j1-5HG"/>
                 <constraint firstItem="gdy-Kh-Ilk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="VPq-QI-1mM"/>
-                <constraint firstItem="Kwi-7j-y0W" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="ska-Qf-ygu"/>
+                <constraint firstItem="gdy-Kh-Ilk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="cJP-Oi-uKb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gdy-Kh-Ilk" secondAttribute="trailing" constant="19.5" id="rnq-Dk-yOw"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>
